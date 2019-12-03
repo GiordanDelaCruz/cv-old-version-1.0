@@ -1,0 +1,61 @@
+body {
+  background-color: #3c4245;
+}
+
+label {
+  font-family: "Courier New", system-ui;
+  color: #dfcdc3;
+}
+
+hr {
+  border-style: ridge none none;
+  border-width: 0.3em;
+  border-color: #719192;
+  width: 100%;
+}
+
+h1 {
+  font-family: "Courier New", system-ui;
+  color: #dfcdc3;
+}
+
+h3 {
+  font-family: "Courier New", system-ui;
+  color: #dfcdc3;
+}
+
+p {
+  font-family: "Courier New", system-ui;
+  color: #dfcdc3;
+}
+
+.skillsTable,
+.expTable th,
+.expTable td{
+  font-family: "Courier New", system-ui;
+  color: #dfcdc3;
+}
+
+.expTable th {
+  background-color: #719192;
+}
+
+.expTable td {
+  background-color: #5f6769;
+  padding: 10px;
+}
+
+a:link {
+  color: #d6e5fa;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #d6e5fa;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fef6fb;
+  text-decoration: underline;
+}
