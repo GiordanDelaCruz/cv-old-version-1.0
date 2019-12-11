@@ -1,50 +1,6 @@
-body {
-  background-color: #3c4245;
-}
-
-label {
-  font-family: "Courier New", system-ui;
-  color: #dfcdc3;
-}
-
-hr {
-  border-style: ridge none none;
-  border-width: 0.3em;
-  border-color: #719192;
-  width: 100%;
-}
-
-h1 {
-  font-family: "Courier New", system-ui;
-  color: #dfcdc3;
-}
-
-h3 {
-  font-family: "Courier New", system-ui;
-  color: #dfcdc3;
-}
-
-p {
-  font-family: "Courier New", system-ui;
-  color: #dfcdc3;
-}
-
-.skillsTable,
-.expTable th,
-.expTable td{
-  font-family: "Courier New", system-ui;
-  color: #dfcdc3;
-}
-
-.expTable th {
-  background-color: #719192;
-}
-
-.expTable td {
-  background-color: #5f6769;
-  padding: 10px;
-}
-
+/*********************************************************************************************/
+/*                                   Tag Selectors                                           */
+/*********************************************************************************************/
 a:link {
   color: #d6e5fa;
   text-decoration: none;
@@ -58,4 +14,85 @@ a:visited {
 a:hover {
   color: #fef6fb;
   text-decoration: underline;
+}
+
+body {
+  background-color: #3c4245;
+}
+
+hr {
+  border-color: #719192;
+  border-style: ridge none none;
+  border-width: 0.3em;
+  width: 100%;
+}
+
+h1 {
+  color: #dfcdc3;
+  font-family: "Courier New", system-ui;
+}
+
+h3 {
+  color: #dfcdc3;
+  font-family: "Courier New", system-ui;
+}
+
+label {
+  color: #dfcdc3;
+  font-family: "Courier New", system-ui;
+}
+
+p {
+  color: #dfcdc3;
+  font-family: "Courier New", system-ui;
+}
+
+ul li {
+  color: #3c3c3c;
+  /* set color of list item text */
+  display: inline-block;
+  list-style: none;
+  margin: 0 0 16px 1.1225em;
+  /* Give the bullet room on the left hand side */
+  padding: 0;
+  position: relative;
+}
+
+ ul li::before {
+  color: #dfcdc3;
+  /* color of bullet or square */
+  content: "\29BF";
+  /* Unicode of character to precede the list item */
+  display: block;
+  font-size: 1em;
+  /* use em or % */
+  left: -1.1225em;
+  /* use em, line up bullet flush with left hand side */
+    position: absolute;
+  /* Set the bullet positioned absolutely top left */
+  top: 0%;
+  /* use em or % */
+}
+
+/*********************************************************************************************/
+/*                                 Class Selectors                                           */
+/*********************************************************************************************/
+th {
+    background-color: #719192;
+}
+
+.skillsTable,
+.expTable{
+  color: #dfcdc3;
+  font-family: "Courier New", system-ui;
+}
+
+.thExtra {
+  background-color: #719192;
+  column-width: 400px;
+}
+
+.expTable td {
+  background-color: #5f6769;
+  padding: 10px;
 }
