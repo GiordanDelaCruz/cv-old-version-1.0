@@ -69,9 +69,9 @@ pre {
 }
 
 .bottom-cloud {
-  left:250px;
-  position: absolute;
-  top: 230px;
+  display: inline-block;
+  position: relative;
+  right: 300px;
 }
 
 .bottom-container {
@@ -111,14 +111,14 @@ pre {
   bottom: 35px;
   display: inline-block;
   height: 100px;
-  padding: 0px 30px 0px 0px;
+  padding: 0 30px 0 0;
   position: relative;
   text-align: center;
   width: 311px;
 }
 .exp-1-right {
   display: inline-block;
-  padding: 0px 0px 0px 30px;
+  padding: 0 0 0 30px;
   position: relative;
   text-align: center;
 }
@@ -126,7 +126,7 @@ pre {
 .exp-2-right {
   display: inline-block;
   height: 160px;
-  padding: 0px 0px 0px 5px;
+  padding: 0 0 0 5px;
   position: relative;
   right: 15px;
   text-align: center;
@@ -135,7 +135,7 @@ pre {
 
 .exp-2-left {
   display: inline-block;
-  padding: 0px 10px 0px 0px;
+  padding: 0 10px 0 0;
   position: relative;
   right: 58px;
   text-align: left;
@@ -160,11 +160,20 @@ pre {
 }
 
 .info-container {
+  display: inline-block;
+  padding: 75px 10px 10px 10px;
   position: relative;
-  top: 120px;
+  text-align: center;
+  height: 530px;
+  width: 80%;
 }
 
-.info-container p {
+.name{
+  margin-bottom: 7px;
+}
+
+.intro {
+  display: block;
   font-family: "Courier New", "Times New Roman";
   color: #443737;
 }
@@ -175,8 +184,13 @@ pre {
 }
 
 .mountain{
+  display: inline;
   position: relative;
-  top: 100px;
+}
+
+.mountain-container {
+  bottom: 30px;
+  position: relative;
 }
 
 .people {
@@ -226,17 +240,16 @@ pre {
 }
 
 .top-cloud {
-  position: absolute;
-  top: 50px;
-  right: 250px;
+  left: 308px;
+  position: relative;
 }
 
 .top-container {
   background-color: #d6e5fa;
-  padding-top: 20px;
+  height: 557px;
+  padding: 20px;
   position: relative;
-  height:600px;
-  width: 100%;
+  text-align: center;
 }
 
 /*************************************************************************************************/
