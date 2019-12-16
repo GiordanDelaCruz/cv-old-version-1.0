@@ -1,0 +1,266 @@
+/*************************************************************************************************/
+/*                                       Tag Selectors                                           */
+/*************************************************************************************************/
+
+a:link {
+  color: #a2a8d3;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #a2a8d3;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #443737;
+  text-decoration: none;
+}
+
+body {
+  margin: auto;
+  text-align: center;
+}
+
+hr {
+  border-color: #757bbd;
+  border-style: solid none none;
+  border-width: 1px;
+  width: 97%;
+}
+
+h1 {
+  color: #443737;
+  font-family: "Cutive Mono", monospace;
+  font-size: 250%;
+  font-weight: bold;
+  margin-top: auto;
+}
+
+h2 {
+  color: #a9aed6;
+  font-family: "Courier New", "Times New Roman";
+  font-size: 200%;
+  margin-top: auto;
+}
+
+h3 {
+  color: #c6cbef;
+  font-family: "Courier New", "Times New Roman";
+  font-size:150%;
+  margin-top: auto;
+}
+
+p {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 1em;
+  color: #3c4245;
+}
+
+pre {
+  font-family: 'Sorts Mill Goudy', serif;
+  color: #3c4245;
+}
+/*************************************************************************************************/
+/*                                      Class Selectors                                          */
+/*************************************************************************************************/
+.books {
+  height: 240px;
+  width: 240px;
+}
+
+.bottom-cloud {
+  display: inline-block;
+  position: relative;
+  right: 300px;
+}
+
+.bottom-container {
+  background-color:  #d6e5fa;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+
+.computer {
+  height: 145px;
+  width: 164px;
+}
+
+.copyright {
+  margin: auto;
+  font-size: 85%;
+}
+
+.experience-header {
+  padding-top: 20px;
+}
+
+.exp-row {
+  margin: 20px;
+}
+
+.exp-1-header {
+  text-align: left;
+}
+
+.exp-1-info {
+  text-align: left;
+}
+
+.exp-1-left {
+  bottom: 35px;
+  display: inline-block;
+  height: 100px;
+  padding: 0 30px 0 0;
+  position: relative;
+  text-align: center;
+  width: 311px;
+}
+.exp-1-right {
+  display: inline-block;
+  padding: 0 0 0 30px;
+  position: relative;
+  text-align: center;
+}
+
+.exp-2-right {
+  display: inline-block;
+  height: 160px;
+  padding: 0 0 0 5px;
+  position: relative;
+  right: 15px;
+  text-align: center;
+  width: 145px;
+}
+
+.exp-2-left {
+  display: inline-block;
+  padding: 0 10px 0 0;
+  position: relative;
+  right: 58px;
+  text-align: left;
+}
+
+.exp-3-right {
+  bottom: 50px;
+  display: inline-block;
+  left: 81px;
+  position: relative;
+  text-align: left;
+}
+
+.exp-3-left {
+  display: inline-block;
+  left: 20px;
+  position: relative;
+}
+
+.footer-link {
+  margin: 0 10px 0 10px;
+}
+
+.info-container {
+  display: block;
+  position: relative;
+  text-align: center;
+}
+
+.name{
+  margin-bottom: 7px;
+}
+
+.intro {
+  display: block;
+  font-family: "Courier New", "Times New Roman";
+  color: #443737;
+}
+
+.middle-container {
+  background-color: #FFFFFF;
+  padding-top: 50px;
+}
+
+.mountain{
+  display: block;
+  margin: 0 auto 0 auto;
+  position: relative;
+}
+
+.people {
+  position: relative;
+  height: 97px;
+  width: 311px;
+}
+
+.rep-models {
+  height: 160px;
+  width: 123px
+}
+
+.skill-row {
+  margin: 20px;
+}
+
+.skill-1-info {
+  text-align: left;
+}
+
+.skill-1-header {
+  text-align: left;
+}
+
+.skill-1-left {
+  display: inline-block;
+  padding: 0px 30px 0px 0px;
+  position: relative;
+}
+
+.skill-1-right {
+  display: inline-block;
+  padding: 0px 0px 0px 30px;
+  position: relative;
+  width: 200px;
+}
+
+.profile-pic {
+  height: 200px;
+  padding-bottom: 3px;
+  width: 200px;
+}
+
+.skills {
+  padding-top: 20px;
+}
+
+.top-cloud {
+  left: 308px;
+  position: relative;
+}
+
+.top-container {
+  background-color: #d6e5fa;
+  padding: 20px 20px 0 20px;
+  position: relative;
+  text-align: center;
+}
+
+/*************************************************************************************************/
+/*                                  Pseudo Class Selectors                                       */
+/*************************************************************************************************/
+
+::-webkit-scrollbar {
+    background-color: #d6e5fa ;
+    width: 14px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #cccccc;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
