@@ -32,7 +32,7 @@ hr {
 h1 {
   color: #443737;
   font-family: "Cutive Mono", monospace;
-  font-size: 250%;
+  font-size: 3rem;
   font-weight: bold;
   margin-top: auto;
 }
@@ -40,14 +40,14 @@ h1 {
 h2 {
   color: #a9aed6;
   font-family: "Courier New", "Times New Roman";
-  font-size: 200%;
+  font-size: 2rem;
   margin-top: auto;
 }
 
 h3 {
   color: #c6cbef;
   font-family: "Courier New", "Times New Roman";
-  font-size:150%;
+  font-size:1.5rem;
   margin-top: auto;
 }
 
@@ -162,6 +162,7 @@ pre {
 
 .info-container {
   display: block;
+  margin-top: 40px;
   position: relative;
   text-align: center;
 }
