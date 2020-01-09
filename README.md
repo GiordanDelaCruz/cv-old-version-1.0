@@ -5,6 +5,6 @@ No framework libraries such as bootstrap was used in the creation. Everything wa
 Please feel free to check it the website with the link below. For the best experience, consider viewing the 
 the website on a desktop/laptop.
 
-Website URL: https://giordandelacruz.github.io/cv/
+Website URL: https://giordandelacruz.github.io/cv-old/
 
 Note: This is an OLD cv website. There is a current one posted on my profile.
